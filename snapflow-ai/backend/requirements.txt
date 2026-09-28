@@ -1,0 +1,45 @@
+# FastAPI and Web Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# AI/ML Core
+onnxruntime>=1.16.0
+numpy>=1.24.0
+
+# Document Processing
+PyPDF2==3.0.1
+python-docx==0.8.11
+Pillow>=10.0.0
+
+# Embeddings & Vector Search
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# LLM & NLP
+transformers>=4.34.0
+torch>=2.0.0
+
+# OCR
+paddleocr>=2.7.0.3
+
+# Speech (optional)
+faster-whisper>=0.10.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Utilities
+python-dotenv==1.0.0
+psutil>=5.9.0
+requests>=2.31.0
+
+# Logging & Monitoring
+python-json-logger>=2.0.7
+
+# Development (optional)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black==23.11.0
+flake8==6.1.0
